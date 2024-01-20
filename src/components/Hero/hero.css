@@ -1,6 +1,7 @@
 .hero-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -42,6 +43,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
+    color: #C0C0C0;
 }
 
 .hero-img {
@@ -49,6 +51,7 @@
     display: flex;
     font-display: column;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     margin-top: 5rem;
 }

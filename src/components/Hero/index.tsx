@@ -7,18 +7,15 @@ export default function Hero() {
             <div className="hero-content">
                 <h2>Building <span className="text-[#c1ff72]">Digital Experiences</span> That Inspire</h2>
                 <p>
-                    Passionate Frontend Developer | Transforming Ideas into Seamless and Visuality Stunnig Web Solutions
+                    Passionate Frontend Developer and Design | Transforming Ideas into Seamless and Visuality Stunnig Web Solutions
                 </p>
             </div>
             <div className="hero-img">
                 <div>
-                    <div className="tech-icon">
-                        <span>React</span>
-                    </div>
-                    <img src={Logo} alt="" />
+                    <img src={Logo} alt="" className="rounded" />
                 </div>
 
-                <div>
+                {/* <div>
                     <div className="tech-icon">
                         <span>Typescript</span>
                     </div>
@@ -28,7 +25,7 @@ export default function Hero() {
                     <div className="tech-icon">
                         <span>HTML</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

@@ -85,7 +85,7 @@ export const SKILLS = [
         ]
     },
     {
-        title: "Tools",
+        title: "Ferramentas",
         icon: imagem4,
         skills: [
             {
@@ -111,9 +111,9 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
 
     {
-        titulo: "Desenvolvedor Frontend Sênior",
-        empresa: "Tech Solutions Inc.",
-        duracao: "Jan 2020 - Presente",
+        titulo: "Desenvolvedor Frontend",
+        empresa: "UNILAB.",
+        duracao: "Agosto 2022 - Setembro 2023",
         atividades: [
             "Desenvolvimento e manutenção de interfaces de usuário responsivas.",
             "Colaboração com equipes de design para implementar designs de usuário.",

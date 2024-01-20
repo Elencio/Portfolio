@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import "./navbar.css"
 import MobileNavbar from "../MobileNavbar";
 import { FaTimes, FaBars } from "react-icons/fa"
+import { AiFillBell } from "react-icons/ai";
 
 export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false)
@@ -18,19 +19,20 @@ export default function Navbar() {
                 <div className="nav-wrapper">
                     <div className="nav-content">
                         <span className="logo">elencio.calado</span>
+                        <span className=" text-green-500 flex items-center gap-2 sm:text-lg"><AiFillBell />Avaliable to work</span>
 
                         <ul>
                             <li>
                                 <Link to="/" className="menu-item">Home</Link>
                             </li>
                             <li>
-                                <Link to="/skills" className="menu-item">Skills</Link>
+                                <Link to="/skills" className="menu-item">habilidades</Link>
                             </li>
                             <li>
-                                <Link to="/work-experience" className="menu-item">Work Experience</Link>
+                                <Link to="/work-experience" className="menu-item">Experência</Link>
                             </li>
                             <li>
-                                <Link to="/contact-me" className="menu-item">Contact</Link>
+                                <Link to="/contact-me" className="menu-item">Contato</Link>
                             </li>
                         </ul>
 

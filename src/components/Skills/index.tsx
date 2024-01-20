@@ -23,7 +23,7 @@ export default function Skills() {
 
     return (
         <section className="skills-container">
-            <h5>Technical Proficiency</h5>
+            <h5>Proficiência Técnica</h5>
             <div className="skills-content">
                 <div className="skills">
                     {SKILLS.map((item: SkillsData) => (
