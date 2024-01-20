@@ -1,5 +1,6 @@
 import { Data } from "@/utils/links";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 
 export default function Projects() {
@@ -76,11 +77,12 @@ export default function Projects() {
 
                                 <div className="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4 text-gray-400">
                                     <p className="mb-2">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit inventore nulla
-                                        deserunt, ad officiis iste. Maxime, eum repellat dolorem odio, dolorum temporibus, quaerat debitis
-                                        repudiandae veritatis eaque blanditiis ullam.
+                                        {data.description}
                                     </p>
-                                    <Button variant="outline">ver projecto</Button>
+                                    <Link to={data.projectLink}>
+                                        <Button variant="outline">ver projecto</Button>
+                                    </Link>
+
                                 </div>
                             </div>
                         </main>

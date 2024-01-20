@@ -1,12 +1,14 @@
+nav {
+    border-bottom: 0.5px solid #18181b;
+}
+
 .nav-wrapper {
-    background-color: rgba(0,0,0,0.1);
     padding: 0.1rem 0 ;
     position: sticky;
     top:0;
     z-index: 30;
     backdrop-filter: blur(50px);
     transition: all 0.3s ease;
-    border-bottom: 0.5px solid #18181b;
 }
 
 
