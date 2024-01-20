@@ -109,14 +109,6 @@
     display: none;
 }
 
-.menu-btn:hover{
-    color: #a993fe;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #000;
-    border: 1.5px solid #a993fe;
-}
 
 @media(max-width: 425px){
     .logo {
