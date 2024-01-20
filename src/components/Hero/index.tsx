@@ -1,5 +1,6 @@
 import "./hero.css"
 import Logo from "../../assets/20230710_142210.jpg"
+import { AiFillBell } from "react-icons/ai";
 
 export default function Hero() {
     return (
@@ -9,6 +10,7 @@ export default function Hero() {
                 <p>
                     Passionate Frontend Developer and Design | Transforming Ideas into Seamless and Visuality Stunnig Web Solutions
                 </p>
+                <span className=" text-green-400 flex items-center gap-2 sm:text-lg"><AiFillBell />Avaliable to work</span>
             </div>
             <div className="hero-img">
                 <div>

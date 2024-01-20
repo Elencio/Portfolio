@@ -19,7 +19,7 @@ export default function Navbar() {
                 <div className="nav-wrapper">
                     <div className="nav-content">
                         <span className="logo">elencio.calado</span>
-                        <span className=" text-green-500 flex items-center gap-2 sm:text-lg"><AiFillBell />Avaliable to work</span>
+
 
                         <ul>
                             <li>
