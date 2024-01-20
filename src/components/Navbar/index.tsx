@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import "./navbar.css"
 import MobileNavbar from "../MobileNavbar";
 import { FaTimes, FaBars } from "react-icons/fa"
-import { AiFillBell } from "react-icons/ai";
 
 export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false)
@@ -24,6 +23,9 @@ export default function Navbar() {
                         <ul>
                             <li>
                                 <Link to="/" className="menu-item">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/projectos" className="menu-item">Projectos</Link>
                             </li>
                             <li>
                                 <Link to="/skills" className="menu-item">habilidades</Link>

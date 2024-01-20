@@ -21,6 +21,9 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
                             <Link to="/" className="menu-item">Home</Link>
                         </li>
                         <li>
+                            <Link to="/projectos" className="menu-item">Projectos</Link>
+                        </li>
+                        <li>
                             <Link to="/skills" className="menu-item">Skills</Link>
                         </li>
                         <li>

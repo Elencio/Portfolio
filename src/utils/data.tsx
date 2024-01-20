@@ -13,7 +13,7 @@ export const SKILLS = [
                 percentage: "80%"
             },
             {
-                skill: "Javascript",
+                skill: "Javascript e Typescript",
                 percentage: "70%"
             },
             {
@@ -113,7 +113,7 @@ export const WORK_EXPERIENCE = [
     {
         titulo: "Desenvolvedor Frontend",
         empresa: "UNILAB.",
-        duracao: "Agosto 2022 - Setembro 2023",
+        duracao: "Out 2022 - Set 2023",
         atividades: [
             "Desenvolvimento e manutenção de interfaces de usuário responsivas.",
             "Colaboração com equipes de design para implementar designs de usuário.",
@@ -122,23 +122,13 @@ export const WORK_EXPERIENCE = [
         ],
     },
     {
-        titulo: "Desenvolvedor Frontend Júnior",
-        empresa: "WebTech Startup",
-        duracao: "Jul 2018 - Dez 2019",
+        titulo: "Desenvolvedor Frontend junior",
+        empresa: "Frelancer",
+        duracao: "Set 2023 - ate o momento",
         atividades: [
-            "Participação no desenvolvimento de novos recursos para o produto principal.",
-            "Implementação de melhorias de usabilidade sugeridas pelos usuários.",
-            "Testes de código e revisões de código em equipe.",
-        ],
-    },
-    {
-        titulo: "Desenvolvedor Backend Júnior",
-        empresa: "WebTech Startup",
-        duracao: "Jul 2018 - Dez 2019",
-        atividades: [
-            "Participação no desenvolvimento de novos recursos para o produto principal.",
-            "Implementação de melhorias de usabilidade sugeridas pelos usuários.",
-            "Testes de código e revisões de código em equipe.",
+            "Desenvolver componentes reutilizáveis e interfaces dinâmicas usando ReactJs.",
+            "Trabalho próximo com designers para garantir a fidelidade da implementação em relação ao design original.",
+            "Interação direta com clientes para entender requisitos, esclarecer dúvidas e apresentar progresso",
         ],
     },
 ]

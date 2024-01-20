@@ -1,5 +1,5 @@
 import "./hero.css"
-import Logo from "../../assets/20230710_142210.jpg"
+import Logo from "../../assets/20230710_141721.jpg"
 import { AiFillBell } from "react-icons/ai";
 
 export default function Hero() {
