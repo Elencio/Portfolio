@@ -16,10 +16,10 @@ export default function Hero() {
                     <div>
                         <h1 className="text-4xl font-extrabold mb-4 dark:text-gray-400 leading-8 sm:leading-10 sm:font-bold sm:text-2xl">Kmk, bros!  Chamo-me Elêncio Calado Zivane</h1>
                         <span className="text-black dark:text-white">
-                            Tenho uma paixão por <b>JavaScript/Typescript</b> e desenvolvimento de websites. Atualmente, sou um desenvolvedor fullstack
-                            na Freelancer, profundamente envolvido nos projectos pessoais, que envolve gestão de participação de mercado,
-                            pesquisa de concorrentes e promoção do crescimento do comércio eletrônico. Trabalho principalmente com <b>Javascript</b>,
-                            <b>Typescript</b>, <b>React</b>,<b>NodeJS</b>  e <b>NextJS</b>.
+                        Como um desenvolvedor full-stack apaixonado por <b>JavaScript/TypeScript</b>, dedico-me a criar websites inovadores. 
+                        Atualmente, estou envolvido em projetos freelancers. 
+                         Meu conhecimento abrange principalmente tecnologias como <b>JavaScript</b>, <b>TypeScript</b>, <b>React</b>, <b>NodeJS</b> e <b>NextJS</b>, permitindo-me 
+                         desenvolver soluções sofisticadas e eficazes para diversas necessidades do mercado.
                         </span>
                     </div>
 
