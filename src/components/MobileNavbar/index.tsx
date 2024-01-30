@@ -10,7 +10,7 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
     return (
         <>
             <div
-                className={`mobile-menu ${isOpen ? "active" : ""}`}
+                className={`mobile-menu ${isOpen ? "active" : ""} text-white dark:text-white`}
                 onClick={toggleMenu}
             >
                 <div className="mobile-menu-container">
