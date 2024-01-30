@@ -23,10 +23,10 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
                             <Link to="/projectos" className="menu-item">Projectos</Link>
                         </li>
                         <li>
-                            <Link to="/skills" className="menu-item">Skills</Link>
+                            <Link to="/skills" className="menu-item">habilidades</Link>
                         </li>
                         <li>
-                            <Link to="/work-experience" className="menu-item">Work Experience</Link>
+                            <Link to="/work-experience" className="menu-item">Experiência</Link>
                         </li>
                         <li>
                             <Link to="/resume" className="menu-item">Resumo</Link>
