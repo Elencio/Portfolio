@@ -26,7 +26,7 @@ export default function WorkExperience() {
   };
   return (
     <section className="experience-container">
-      <h5>Work Experience</h5>
+      <h5 className="text-gray-900 dark:text-gray-400">Work Experience</h5>
 
       <div className="experience-content">
         <Slider {...settings}>

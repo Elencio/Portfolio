@@ -10,9 +10,6 @@
     transition: all 0.3s ease;
 }
 
-.skills-card:hover, .skills-card.active {
-   background: #18181b; 
-}
 
 .skills-card span {
     font-size: 1.3rem;
