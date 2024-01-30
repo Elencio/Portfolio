@@ -27,13 +27,13 @@ export default function Footer() {
                         </Link>
                     </div>
                     <div className="flex space-x-1.5 bg-slate-500 p-4 rounded">
-                        <Link
-                            to="/work-experience"
+                        <a
+                            href="mailto:elenciocalado@gmail.com"
                             className="flex flex-row items-center gap-2 text-lg"
                         >
+                            <CgMail className="text-2xl md:text-lg text-white" />
+                        </a>
 
-                            <CgMail className="text-2xl md:text-lg  text-white " />
-                        </Link>
                     </div>
                     <div className="bg-slate-500 p-4 rounded">
                         <Link
@@ -51,7 +51,7 @@ export default function Footer() {
                 <div className="my-2 flex space-x-2 text-lg text-gray-500 dark:text-gray-400 sm:text-sm">
                     <div className="sm:text-sm">{`Copyright © ${new Date().getFullYear()}`}</div>
                     <span>{` • `}</span>
-                    <span >elencio's Coding Adventure</span>
+                    <span>elencio's Coding Adventure</span>
                 </div>
             </div>
         </footer>
