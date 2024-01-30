@@ -1,42 +1,18 @@
-nav {
-    border-bottom: 0.5px solid #18181b;
-}
-
-.nav-wrapper {
-    padding: 0.1rem 0 ;
-    position: sticky;
-    top:0;
-    z-index: 30;
-    backdrop-filter: blur(50px);
-    transition: all 0.3s ease;
-}
-
-
 .nav-content {
-    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
-    margin: 0 auto;
-}
-
-.logo {
-    font-size: 1.3rem;
-    width: 12rem;
-    height: auto;
-    font-weight: 600;
 }
 
 .nav-content ul {
    display: flex;
    align-items: center;
-   gap: 0.5rem;
+   gap: 0.2rem;
    list-style: none;
 }
 
 .nav-content li {
-    margin: 0 1.5rem;
+    margin: 0 0.5rem;
 }
 
 .nav-content li a {
@@ -45,9 +21,8 @@ nav {
 
 .menu-item {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
-    color: #fff;
     position: relative;
     cursor:pointer;
 }
@@ -112,12 +87,6 @@ nav {
 }
 
 
-@media(max-width: 425px){
-    .logo {
-        width: 10rem;
-        height: auto;
-    }
-}
 @media(max-width: 769px) {
     .menu-btn {
         display: block;

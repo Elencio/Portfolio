@@ -1,5 +1,5 @@
-import ContactMe from '@/components/Contactme'
 import Hero from '@/components/Hero'
+import Resume from '@/components/Resume'
 import Skills from '@/components/Skills'
 import WorkExperience from '@/components/WorkExperience'
 import { DefaultLayout } from '@/layout'
@@ -27,14 +27,13 @@ const router = createBrowserRouter([
                 element: <WorkExperience />
             },
             {
-                path: '/contact-me',
-                element: <ContactMe />
-            },
-            {
                 path: '/projectos',
                 element: <Projects />
             },
-
+            {
+                path: '/resume',
+                element: <Resume />
+            },
 
         ],
     },

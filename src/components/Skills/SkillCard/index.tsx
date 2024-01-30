@@ -9,7 +9,7 @@ interface SkillCardProps {
 
 export default function SkillCard({ title, iconUrl, isActive, onClick }: SkillCardProps) {
     return (
-        <div className={`skills-card ${isActive ? "active" : ""}`}
+        <div className={`skills-card ${isActive ? "active" : ""} dark:bg-zinc-900`}
             onClick={() => onClick()}
         >
             <div className="skill-icon">

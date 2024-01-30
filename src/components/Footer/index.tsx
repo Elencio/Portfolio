@@ -4,7 +4,7 @@ import { CgMail } from "react-icons/cg";
 
 export default function Footer() {
     return (
-        <div className="flex flex-row md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-14 justify-center">
+        <div className="flex flex-row md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-14 justify-center mb-4">
             <ul className="flex flex-row gap-4 justify-center items-center md:flex-row space-y-2 md:space-y-0 md:space-x-4">
                 <li>
                     <Link

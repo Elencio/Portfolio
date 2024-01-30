@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./mobilenavbar.css"
+import { ModeToggle } from "../mode-toggle";
 
 interface MobileNavbarProps {
     isOpen: boolean;
@@ -32,6 +33,7 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
                         <li>
                             <Link to="contact-me" className="menu-item">Contact</Link>
                         </li>
+                        <ModeToggle />
                     </ul>
 
                 </div>

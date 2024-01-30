@@ -46,7 +46,7 @@
     color: #C0C0C0;
 }
 
-.hero-img {
+/* .hero-img {
     flex: 1;
     display: flex;
     font-display: column;
@@ -54,7 +54,7 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 5rem;
-}
+} */
 
 .hero-img > div {
     display: flex;
