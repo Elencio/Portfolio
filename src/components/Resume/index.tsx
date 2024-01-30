@@ -110,14 +110,14 @@ export default function Resume() {
 
                     <div>
                         <h2 className="text-xl">Atividades</h2>
-                        <ul>
+                        <div className="p-4">
                             <li>Participação em uma bolsa de iniciação científica como desenvolvedor frontend.</li>
                             <li>Participação na Feira de Conhecimento Ceará Tech Submit.</li>
-                        </ul>
+                        </div>
                     </div>
 
 
-                    Last updated: Sep 2023
+                   <p>Last updated: Sep 2023</p> 
                 </div>
             </div>
         </main>
