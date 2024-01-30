@@ -14,7 +14,7 @@ export default function Hero() {
                         </span>
                     </div>
                     <div>
-                        <h1 className="text-4xl font-extrabold mb-4 dark:text-gray-400 leading-8 sm:leading-10">Kmk, bros!  Chamo-me Elêncio Calado Zivane</h1>
+                        <h1 className="text-4xl font-extrabold mb-4 dark:text-gray-400 leading-8 sm:leading-10 sm:font-bold sm:text-2xl">Kmk, bros!  Chamo-me Elêncio Calado Zivane</h1>
                         <span className="text-black dark:text-white">
                             Tenho uma paixão por <b>JavaScript/Typescript</b> e desenvolvimento de websites. Atualmente, sou um desenvolvedor fullstack
                             na Freelancer, profundamente envolvido nos projectos pessoais, que envolve gestão de participação de mercado,

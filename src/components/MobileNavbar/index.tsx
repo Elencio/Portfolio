@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./mobilenavbar.css"
-import { ModeToggle } from "../mode-toggle";
 
 interface MobileNavbarProps {
     isOpen: boolean;
@@ -16,7 +15,6 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
             >
                 <div className="mobile-menu-container">
                     <span className="logo">elencio.calado</span>
-                    <ModeToggle />
                     <ul>
                         <li>
                             <Link to="/" className="menu-item">Home</Link>

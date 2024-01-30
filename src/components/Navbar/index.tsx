@@ -51,9 +51,9 @@ export default function Navbar() {
                                 <Toggle className="text-lg">Contato</Toggle>
                             </Link>
                         </li>
-                        <ModeToggle />
+                     
                     </ul>
-
+                    <ModeToggle />
                     <button className="menu-btn" onClick={toggleMenu}>
                         {openMenu ? (
                             <FaTimes className="materials-symbols-outlined" style={{ fontSize: "1.8rem" }} />
