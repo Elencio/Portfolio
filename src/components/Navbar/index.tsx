@@ -54,7 +54,7 @@ export default function Navbar() {
                      
                     </ul>
                     <ModeToggle />
-                    <button className="menu-btn" onClick={toggleMenu}>
+                    <button className="menu-btn dark:text-white" onClick={toggleMenu}>
                         {openMenu ? (
                             <FaTimes className="materials-symbols-outlined" style={{ fontSize: "1.8rem" }} />
                         ) : (
