@@ -16,7 +16,7 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
             >
                 <div className="mobile-menu-container">
                     <span className="logo">elencio.calado</span>
-
+                    <ModeToggle />
                     <ul>
                         <li>
                             <Link to="/" className="menu-item">Home</Link>
@@ -33,7 +33,7 @@ export default function MobileNavbar({ isOpen, toggleMenu }: MobileNavbarProps) 
                         <li>
                             <Link to="contact-me" className="menu-item">Contact</Link>
                         </li>
-                        <ModeToggle />
+                    
                     </ul>
 
                 </div>
