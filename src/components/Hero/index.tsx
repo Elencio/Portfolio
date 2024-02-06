@@ -4,18 +4,18 @@ import { AiFillBell } from "react-icons/ai";
 
 export default function Hero() {
     return (
-        <section className="hero-container mx-11 items-center mt-8 justify-center gap-8">
-            <div className="hero-content space-y-2">
+        <section className="hero-container mx-11 items-center mt-8 justify-between gap-11">
+            <div className="hero-content space-y-2 sm:pr-12">
                 <div className="space-y-8">
-                    <div className="flex flex-col gap-4 border border-border p-2 bg-slate-100 dark:bg-zinc-900 rounded-xl mt-6 md:mt-0 text-primary">
+                <h1 className="text-3xl mb-4 dark:text-gray-400 leading-8 sm:leading-10 sm:text-3xl ">Elêncio Calado - Fullstack Developer</h1>
+                    <div className="flex flex-col gap-4 border-border p-4 bg-slate-100 dark:bg-zinc-900 rounded-xl mt-6 md:mt-0 text-primary border-2">
                         <h1 className="font-bold">O que estou fazendo?</h1>
                         <span>Construindo uma aplicacão para manter as pessoas atualizadas, 
                             <a href="">Tech-news</a>
                         </span>
                     </div>
                     <div>
-                        <h1 className="text-4xl font-extrabold mb-4 dark:text-gray-400 leading-8 sm:leading-10 sm:font-bold sm:text-2xl">Kmk, bros!  Chamo-me Elêncio Calado Zivane</h1>
-                        <span className="text-black dark:text-white">
+                        <span className="text-black dark:text-white leading-8">
                         Como um desenvolvedor full-stack apaixonado por <b>JavaScript/TypeScript</b>, dedico-me a criar websites inovadores. 
                         Atualmente, estou envolvido em projetos freelancers. 
                          Meu conhecimento abrange principalmente tecnologias como <b>JavaScript</b>, <b>TypeScript</b>, <b>React</b>, <b>NodeJS</b> e <b>NextJS</b>, permitindo-me 

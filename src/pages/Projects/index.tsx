@@ -1,7 +1,6 @@
 import { Data } from "@/utils/links";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Key, Star } from "lucide-react";
 
 
 export default function Projects() {
@@ -26,15 +25,7 @@ export default function Projects() {
                                     />
                                 </div>
                                 <dl className="mt-4  gap-8 text-xs font-medium flex items-center row-start-2 sm:mt-1 sm:row-start-3 md:mt-2.5 lg:row-start-2">
-
-                                    <div className="text-indigo-600 flex items-center dark:text-indigo-400">
-                                      <Star />
-                                        <span>
-                                            4.89 <span className="text-slate-400 font-normal">(128)</span>
-                                        </span>
-                                    </div>
                                     <div className="flex items-center flex-row">
-                                       <Key />
                                        {data.linguagens}
                                     </div>
 

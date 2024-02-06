@@ -3,8 +3,6 @@ import { Link } from "react-router-dom"
 import "./navbar.css"
 import MobileNavbar from "../MobileNavbar";
 import { FaTimes, FaBars } from "react-icons/fa"
-import { Toggle } from "@/components/ui/toggle"
-import { ModeToggle } from "../mode-toggle";
 
 
 export default function Navbar() {
@@ -19,41 +17,38 @@ export default function Navbar() {
             <MobileNavbar isOpen={openMenu} toggleMenu={toggleMenu} />
             <nav className="w-full inset-x-0 top-0 z-30 items-center border-b px-8 py-6  sticky backdrop-blur-lg transition-all">
                 <div className="nav-content">
-                    <span className="logo">elencio.calado</span>
+                    <Link to="/" className="menu-item text-xl">
+                        <span>Calado</span>
+                    </Link>
+
                     <ul>
                         <li>
                             <Link to="/" className="menu-item">
-                                <Toggle className="text-lg">Sobre min</Toggle>
+                                <span>Sobre min</span>
                             </Link>
                         </li>
                         <li>
                             <Link to="/projectos" className="menu-item text-black dark:text-white">
-                                <Toggle className="text-lg">Projectos</Toggle>
+                                <span>Projectos</span>
                             </Link>
                         </li>
                         <li>
                             <Link to="/skills" className="menu-item text-black  dark:text-white">
-                                <Toggle className="text-lg">habilidades</Toggle>
+                                <span>habilidades</span>
                             </Link>
                         </li>
                         <li>
                             <Link to="/work-experience" className="menu-item text-black  dark:text-white">
-                                <Toggle className="text-lg">Experência</Toggle>
+                                <span>Experência</span>
                             </Link>
                         </li>
                         <li>
                             <Link to="/resume" className="menu-item text-black  dark:text-white">
-                                <Toggle className="text-lg">Resumo</Toggle>
+                                <span>Resumo</span>
                             </Link>
                         </li>
-                        <li>
-                            <Link to="/resume" className="menu-item text-black  dark:text-white">
-                                <Toggle className="text-lg">Contato</Toggle>
-                            </Link>
-                        </li>
-                     
+
                     </ul>
-                    <ModeToggle />
                     <button className="menu-btn dark:text-white" onClick={toggleMenu}>
                         {openMenu ? (
                             <FaTimes className="materials-symbols-outlined" style={{ fontSize: "1.8rem" }} />

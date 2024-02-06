@@ -1,15 +1,15 @@
 export default function Resume() {
     return (
-        <main className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-gray-100 dark:bg-gray-200 p-3 md:flex md:space-y-0 md:p-8">
-            <div className="table-of-content top-20 self-start pl-0 text-gray-500 md:sticky">
+        <main className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-[#09090b] p-3 md:flex md:space-y-0 md:p-8">
+            <div className="table-of-content top-20 self-start pl-0 text-white md:sticky">
                 <p>Sumário</p>
                 <p>Educacão</p>
                 <p>Experiência de trabalho</p>
                 <p>Projectos</p>
             </div>
 
-            <div className="hidden border-l border-gray-300 md:block" />
-            <div className="content prose prose-slate grow table-auto border-collapse space-y-5 text-justify leading-6 text-gray-900">
+            <div className="hidden border-l border-gray-700 md:block" />
+            <div className="content prose prose-slate grow table-auto border-collapse space-y-5 text-justify leading-6 text-white">
                 <div className="space-y-4">
                     <h1 className="text-2xl">Elêncio Calado Zivane</h1>
 
@@ -100,12 +100,12 @@ export default function Resume() {
 
                     <div>
                         <h2 className="text-xl">Certificados</h2>
-                        - Curso Avancado de Javascript e Typescript. <br />
-                        <div className="!m-0 text-sm italic text-gray-800"> Udemy Brazil em dezembro 2022.</div>
-                        - ReactJS <br />
-                        <div className="!m-0 text-sm italic text-gray-800"> Rocketseat, 30 de Setembro de 2023.</div>
-                        - Responsive Web Design <br />
-                        <div className="!m-0 text-sm italic text-gray-800">freeCodeCamp, 2 de Agosto de 2023</div>
+                        <li className="pl-2">Curso Avancado de Javascript e Typescript. <br /></li>
+                        <div className="!m-0 text-sm italic text-gray-400"> Udemy Brazil em dezembro 2022.</div>
+                        <li className="pl-2"> ReactJS <br /></li>
+                        <div className="!m-0 text-sm italic text-gray-400"> Rocketseat, 30 de Setembro de 2023.</div>
+                        <li className="pl-2">Responsive Web Design <br /></li>
+                        <div className="!m-0 text-sm italic text-gray-400">freeCodeCamp, 2 de Agosto de 2023</div>
                     </div>
 
                     <div>
@@ -117,7 +117,7 @@ export default function Resume() {
                     </div>
 
 
-                   <p>Last updated: Sep 2023</p> 
+                    <p>Last updated: Janeiro 2024</p>
                 </div>
             </div>
         </main>
