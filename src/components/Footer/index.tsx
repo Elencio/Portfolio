@@ -5,7 +5,7 @@ import { CgMail } from "react-icons/cg";
 export default function Footer() {
     return (
         <footer>
-            <div className="px-24  mb-8 mt-16 flx items-center justify-between space-y-4 md:mb-10 md:flex md:space-y-0">
+            <div className="px-8 mb-8 mt-16 flx items-center justify-between space-y-4 md:mb-10 md:flex md:space-y-0">
                 <div className="flex items-center space-x-1">
 
                     <div className="flex space-x-1.5 bg-slate-[#121212] p-4 border border-border">
@@ -41,7 +41,7 @@ export default function Footer() {
                             className="flex flex-row items-center gap-2 text-lg"
                         >
 
-                            <FaBehance className="text-5xl md:text-lg  text-white " />
+                            <FaBehance className="text-xl md:text-lg  text-white " />
                         </Link>
                     </div>
 

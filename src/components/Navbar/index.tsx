@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <>
             <MobileNavbar isOpen={openMenu} toggleMenu={toggleMenu} />
-            <nav className="w-full inset-x-0 top-0 z-30 items-center border-b px-24 py-6  sticky backdrop-blur-lg transition-all">
+            <nav className="w-full inset-x-0 top-0 z-30 items-center border-b px-8 py-6  sticky backdrop-blur-lg transition-all">
                 <div className="nav-content">
                     <Link to="/" className="menu-item text-xl">
                         <span>Elêncio.</span>

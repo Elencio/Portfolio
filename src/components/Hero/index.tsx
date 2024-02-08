@@ -5,7 +5,7 @@ import Logo from "../../assets/20230710_141721.jpg"
 
 export default function Hero() {
     return (
-        <section className="hero-container px-24  items-center mt-8 justify-between gap-11">
+        <section className="hero-container mx-11 items-center mt-8 justify-between gap-11">
             <div className="hero-content space-y-2 sm:pr-12">
                 <div className="space-y-8">
                     <h1 className="text-3xl mb-4 text-white leading-8 sm:leading-10 sm:text-3xl font-bold">Elêncio Calado - Fullstack Developer</h1>
