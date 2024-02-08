@@ -5,43 +5,43 @@ import { CgMail } from "react-icons/cg";
 export default function Footer() {
     return (
         <footer>
-            <div className="px-8 mb-8 mt-16 flx items-center justify-between space-y-4 md:mb-10 md:flex md:space-y-0">
+            <div className="px-24  mb-8 mt-16 flx items-center justify-between space-y-4 md:mb-10 md:flex md:space-y-0">
                 <div className="flex items-center space-x-1">
 
-                    <div className="flex space-x-1.5 bg-slate-[#121212] p-4 rounded border-2">
+                    <div className="flex space-x-1.5 bg-slate-[#121212] p-4 border border-border">
                         <Link
                             to="https://github.com/Elencio"
                             className="flex flex-row items-center gap-2 text-lg"
                         >
 
-                            <FaGithub className="text-2xl md:text-lg text-white" />
+                            <FaGithub className="text-5xl md:text-lg text-white" />
                         </Link>
                     </div>
-                    <div className="flex space-x-1.5bg-slate-[#121212] p-4 rounded border-2">
+                    <div className="flex space-x-1.5 bg-slate-[#121212] p-4 border border-border">
                         <Link
                             to="https://www.linkedin.com/in/elencio-calado-zivane/"
                             className="flex flex-row items-center gap-2 text-lg"
                         >
 
-                            <FaLinkedin className="text-2xl md:text-lg  text-white " />
+                            <FaLinkedin className="text-5xl md:text-lg  text-white " />
                         </Link>
                     </div>
-                    <div className="flex space-x-1.5 bg-slate-[#121212] p-4 rounded border-2">
+                    <div className="flex space-x-1.5 bg-slate-[#121212] p-4 border border-border">
                         <a
                             href="mailto:elenciocalado@gmail.com"
                             className="flex flex-row items-center gap-2 text-lg"
                         >
-                            <CgMail className="text-2xl md:text-lg text-white" />
+                            <CgMail className="text-5xl md:text-lg text-white" />
                         </a>
 
                     </div>
-                    <div className="bg-slate-[#121212] p-4 rounded border-2">
+                    <div className="bg-slate-[#121212] p-4 border border-border">
                         <Link
                             to="https://www.behance.net/elenciocalado"
                             className="flex flex-row items-center gap-2 text-lg"
                         >
 
-                            <FaBehance className="text-2xl md:text-lg  text-white " />
+                            <FaBehance className="text-5xl md:text-lg  text-white " />
                         </Link>
                     </div>
 

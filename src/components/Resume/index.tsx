@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-        <main className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-[#09090b] p-3 md:flex md:space-y-0 md:p-8">
+        <main className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-[#09090b] p-3 md:flex md:space-y-0 md:p-8 px-24">
             <div className="table-of-content top-20 self-start pl-0 text-white md:sticky">
                 <p>Sumário</p>
                 <p>Educacão</p>
